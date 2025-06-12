@@ -148,13 +148,13 @@ def force_foreground_window(hwnd):
 def confine_mouse_to_xenia():
     global xenia_center
     hwnd = None
-    print("🔍 Searching for the Xenia window...")
+    print("Searching for the Xenia window...")
     while hwnd is None:
         hwnd = find_window_by_exe()
         time.sleep(0.5)
     force_foreground_window(hwnd)
     rect = win32gui.GetWindowRect(hwnd)
-    print(f"🪟 Xenia window detected: {rect}")
+    print(f"Xenia window detected: {rect}")
     win32api.ClipCursor(rect)
     xenia_center = ((rect[0] + rect[2]) // 2, (rect[1] + rect[3]) // 2)
     win32api.SetCursorPos(xenia_center)
@@ -275,8 +275,8 @@ threading.Thread(target=monitor_xenia_window, daemon=True).start()
 
 try:
     with keyboard.Listener(on_press=on_press, on_release=on_release) as listener:
-        print("🎮 Script active. Press F4 to exit.")
+        print("Script active. Press F4 to exit.")
         listener.join()
 finally:
     release_mouse()
-    print("🧹 Cleaning complete.")
+    print("Cleaning complete.")
