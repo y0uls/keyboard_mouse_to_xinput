@@ -12,7 +12,6 @@ import ctypes
 from pynput import keyboard, mouse
 import vgamepad as vg
 
-# Chargement de la configuration
 with open("config.json", "r", encoding="utf-8") as f:
     config = json.load(f)
 
@@ -21,7 +20,6 @@ SENSITIVITY = config["sensitivity"]
 DEADZONE = config["deadzone"]
 user_key_mapping = config["key_mapping"]
 
-# Mappage des touches
 key_map = {
     "A": vg.XUSB_BUTTON.XUSB_GAMEPAD_A,
     "B": vg.XUSB_BUTTON.XUSB_GAMEPAD_B,
