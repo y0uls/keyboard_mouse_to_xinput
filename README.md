@@ -49,6 +49,8 @@ python keyboard_mouse_to_xinput.py
 
 3. Press `F4` to exit cleanly.
 
+4. Optionally, double-clicking "gui_launcher.pyw" executes "keyboard_mouse_to_xinput.py" via a graphical console
+
 ---
 
 ## 📦 Dependencies
