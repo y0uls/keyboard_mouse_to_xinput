@@ -1,0 +1,27 @@
+{
+  "executable_name": "xenia_canary.exe",
+  "sensitivity": 3000,
+  "deadzone": 5000,
+  "key_mapping": {
+    "space": "A",
+    "ctrl_l": "B",
+    "ctrl_r": "B",
+    "enter": "START",
+    ",": "BACK",
+    "²": "GUIDE",
+    "r": "X",
+    "&": "Y",
+    "a": "LEFT_SHOULDER",
+    "g": "RIGHT_SHOULDER",
+    "shift": "LEFT_THUMB",
+    "e": "RIGHT_THUMB",
+    "z": "left_thumb_up",
+    "s": "left_thumb_down",
+    "q": "left_thumb_left",
+    "d": "left_thumb_right",
+    "up": "dpad_up",
+    "down": "dpad_down",
+    "left": "dpad_left",
+    "right": "dpad_right"
+  }
+}
