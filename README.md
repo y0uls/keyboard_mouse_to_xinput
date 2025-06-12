@@ -29,7 +29,7 @@ The `config.json` file allows you to customize the following settings:
 
 ## 🚀 Installation
 
-1. Install the Windows driver [ViGEmBus_1.22.0_x64_x86_arm64.exe](https://github.com/ton-utilisateur/ton-projet/releases/download/v1.0/monprogramme).
+1. Install the Windows driver [ViGEmBus_1.22.0_x64_x86_arm64.exe](https://github.com/y0uls/keyboard_mouse_to_xinput/blob/main/ViGEmBus_1.22.0_x64_x86_arm64.exe).
 2. Install the necessary dependencies with pip:
 
 ```bash
